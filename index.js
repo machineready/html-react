@@ -22,3 +22,6 @@ export const $section = (props, ...children) => React.createElement('section', p
 export const $i = (props, ...children) => React.createElement('i', props, ...children);
 export const $aside = (props, ...children) => React.createElement('aside', props, ...children);
 export const $article = (props, ...children) => React.createElement('article', props, ...children);
+export const $figure = (props, ...children) => React.createElement('figure', props, ...children);
+export const $time = (props, ...children) => React.createElement('time', props, ...children);
+
