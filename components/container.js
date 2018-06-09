@@ -1,5 +1,5 @@
 /* global React */
-import { $div } from '../../common/tags';
+import { $div } from '..';
 
 export class Container extends React.Component {
   render() {
