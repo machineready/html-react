@@ -10,6 +10,7 @@ export const $p = (props, ...children) => React.createElement('p', props, ...chi
 export const $button = (props, ...children) => React.createElement('button', props, ...children);
 export const $img = (props, ...children) => React.createElement('img', props, ...children);
 export const $a = (props, ...children) => React.createElement('a', props, ...children);
+export const $ol = (props, ...children) => React.createElement('ol', props, ...children);
 export const $ul = (props, ...children) => React.createElement('ul', props, ...children);
 export const $li = (props, ...children) => React.createElement('li', props, ...children);
 export const $nav = (props, ...children) => React.createElement('nav', props, ...children);
