@@ -25,4 +25,9 @@ export const $aside = (props, ...children) => React.createElement('aside', props
 export const $article = (props, ...children) => React.createElement('article', props, ...children);
 export const $figure = (props, ...children) => React.createElement('figure', props, ...children);
 export const $time = (props, ...children) => React.createElement('time', props, ...children);
+export const $table = (props, ...children) => React.createElement('table', props, ...children);
+export const $tr = (props, ...children) => React.createElement('tr', props, ...children);
+export const $td = (props, ...children) => React.createElement('td', props, ...children);
+export const $th = (props, ...children) => React.createElement('th', props, ...children);
+export const $thead = (props, ...children) => React.createElement('thead', props, ...children);
 
