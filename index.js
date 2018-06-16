@@ -29,5 +29,6 @@ export const $table = (props, ...children) => React.createElement('table', props
 export const $tr = (props, ...children) => React.createElement('tr', props, ...children);
 export const $td = (props, ...children) => React.createElement('td', props, ...children);
 export const $th = (props, ...children) => React.createElement('th', props, ...children);
+export const $tbody = (props, ...children) => React.createElement('tbody', props, ...children);
 export const $thead = (props, ...children) => React.createElement('thead', props, ...children);
 
