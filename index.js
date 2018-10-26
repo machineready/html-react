@@ -31,4 +31,5 @@ export const $td = (props, ...children) => React.createElement('td', props, ...c
 export const $th = (props, ...children) => React.createElement('th', props, ...children);
 export const $tbody = (props, ...children) => React.createElement('tbody', props, ...children);
 export const $thead = (props, ...children) => React.createElement('thead', props, ...children);
+export const $canvas = (props, ...children) => React.createElement('canvas', props, ...children);
 
