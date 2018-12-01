@@ -1,3 +1,5 @@
+const React = require('react');
+
 function makeElement(name) {
   return (props, ...children) => React.createElement(name, props, ...children);
 }
