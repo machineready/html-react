@@ -29,7 +29,7 @@ const $article = makeElement('article');
 const $figure = makeElement('figure');
 const $time = makeElement('time');
 
-export {
+module.exports = {
   $h1, $h2, $h3, $h4, $h5, $div, $span, $p, $button, $img, $a, $ol, $ul, $li, $nav, $br,
   $footer, $label, $input, $form, $section, $i, $aside, $article, $figure, $time
 }
