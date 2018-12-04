@@ -30,9 +30,17 @@ const $aside = makeElement('aside');
 const $article = makeElement('article');
 const $figure = makeElement('figure');
 const $time = makeElement('time');
+const $table = makeElement('table');
+const $thead = makeElement('thead');
+const $th = makeElement('th');
+const $tr = makeElement('tr');
+const $td = makeElement('td');
+const $tbody = makeElement('tbody');
+
 
 module.exports = {
   $h1, $h2, $h3, $h4, $h5, $div, $span, $p, $button, $img, $a, $ol, $ul, $li, $nav, $br,
-  $footer, $label, $input, $form, $section, $i, $aside, $article, $figure, $time
+  $footer, $label, $input, $form, $section, $i, $aside, $article, $figure, $time,
+  $table, $thead, $th, $tr, $td, $tbody
 }
 
