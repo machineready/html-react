@@ -1,22 +1,6 @@
-function isObject(value) {
-  const type = typeof value;
-  return !!value && (type == 'object' || type == 'function');
-}
-
 function makeElement(name) {
-  return (className, props, ...children) => {
-    if (isObject(className)) {
-      throw new Error('Object not expected for className');
-    }
-    if (props === undefined) {
-      props = { className };
-    } else {
-      if (props.className) {
-        props.className = `${props.className} ${className}`;
-      } else {
-        props.className = className;
-      }
-    }
+  return (classNameOrProps, ...children) => {
+    const props = (typeof classNameOrProps === 'string') ? { className: classNameOrProps } : classNameOrProps;
     React.createElement(name, props, ...children);
   }
 }
