@@ -1,5 +1,16 @@
 function makeElement(name) {
-  return (props, ...children) => React.createElement(name, props, ...children);
+  return (className, props, ...children) => {
+    if (props === undefined) {
+      props = { className };
+    } else {
+      if (props.className) {
+        props.className = `${props.className} ${className}`;
+      } else {
+        props.className = className;
+      }
+    }
+    React.createElement(name, props, ...children);
+  }
 }
 
 const $h1 = makeElement('h1');
