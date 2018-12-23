@@ -3,7 +3,7 @@ const React = require('react');
 function makeElement(name) {
   return (classNameOrProps, ...children) => {
     const props = (typeof classNameOrProps === 'string') ? { className: classNameOrProps } : classNameOrProps;
-    React.createElement(name, props, ...children);
+    return React.createElement(name, props, ...children);
   }
 }
 
