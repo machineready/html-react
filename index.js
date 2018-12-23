@@ -1,5 +1,13 @@
+function isObject(value) {
+  const type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
 function makeElement(name) {
   return (className, props, ...children) => {
+    if (isObject(className)) {
+      throw new Error('Object not expected for className');
+    }
     if (props === undefined) {
       props = { className };
     } else {
