@@ -1,8 +1,9 @@
 {
   "name": "html-react",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "basic components for doing HTML in React without JSX",
-  "main": "index.mjs",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,4 +1,4 @@
-import { makeElement } from './core';
+import { makeElement } from './core.js';
 
 export const $a = makeElement('a');
 export const $altGlyph = makeElement('altGlyph');
