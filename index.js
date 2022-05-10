@@ -3,8 +3,7 @@ import React from 'react';
 import { makeElement } from './core.js';
 
 // Fragment
-const $$ = (...children) => React.createElement(React.Fragment, null, ...children);
-export const $$;
+export const $$ = (...children) => React.createElement(React.Fragment, null, ...children);
 
 export const $a = makeElement('a');
 export const $abbr = makeElement('abbr');
