@@ -1,6 +1,6 @@
 {
   "name": "html-react",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "basic components for doing HTML in React without JSX",
   "main": "index.js",
   "type": "module",

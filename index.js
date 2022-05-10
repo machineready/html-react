@@ -1,4 +1,10 @@
+import React from 'react';
+
 import { makeElement } from './core.js';
+
+// Fragment
+const $$ = (...children) => React.createElement(React.Fragment, null, ...children);
+export const $$;
 
 export const $a = makeElement('a');
 export const $abbr = makeElement('abbr');
@@ -149,7 +155,7 @@ export const $video = makeElement('video');
 export const $wbr = makeElement('wbr');
 export const $xm = makeElement('xm');
 
-export default { $a, $abbr, $acronym, $address, $applet, $area, $article, $aside, 
+export default { $$, $a, $abbr, $acronym, $address, $applet, $area, $article, $aside, 
   $audio, $b, $base, $basefont, $bdi, $bdo, $bgsound, $big, $blink, $blockquote, $body, 
   $br, $button, $canvas, $caption, $center, $cite, $code, $col, $colgroup, $command, 
   $content, $data, $datalist, $dd, $del, $details, $dfn, $dialog, $dir, $div, $dl, 
